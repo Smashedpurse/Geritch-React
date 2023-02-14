@@ -1,9 +1,19 @@
-import './App.css'
+import React from 'react'
 
-function App() {
-  
+const App = () => {
   return (
-    <h1>Hola</h1>
+    <div>
+    <Navbar />
+    <Header />
+    <AboutUs />
+    <SpecialMenu />
+    <Chef />
+    <Intro />
+    <Laurels />
+    <Gallery />
+    <FindUs />
+    <Footer /> 
+    </div>
   )
 }
 
