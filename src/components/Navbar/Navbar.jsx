@@ -6,17 +6,24 @@ import "./Navbar.css";
 
 const NavBar = () => {
   return (
-  <nav className="app__navbar">
-    <div className="app__navbar-logo">
-      <img src={images.gericht} alt="app-logo"/>
+    <nav className="app__navbar">
+      <div className="app__navbar-logo">
+        <img src={images.gericht} alt="app__logo" />
+      </div>
+    <ul className="app__navbar-links">
+    <li className="p__opensans"><a href="#Home">Home</a></li>
+        <li className="p__opensans"><a href="#abou">About</a></li>
+        <li className="p__opensans"><a href="#menu">Menu</a></li>
+        <li className="p__opensans"><a href="#awards">Awards</a></li>
+        <li className="p__opensans"><a href="#contact">Contact</a></li>
+      </ul>
+
+    <div className="app__navbar-login">
+      <a href="#login" className="p__opensans">Log In/ Register</a>
+      <div />
+      <a href="/" className="p__opensans">Book Table</a>
     </div>
-    <ul className="app__nabvar-links">
-    <li className="p__opensans"> <a href="#home">Home</a></li>
-    <li className="p__opensans"> <a href="#About">About</a></li>
-    <li className="p__opensans"> <a href="#Menu">Menu</a></li>
-    <li className="p__opensans"> <a href="#Awards">Awards</a></li>
-    <li className="p__opensans"> <a href="#Contact">Contact</a></li>
-    </ul>
+    
   </nav>
   )
 };
