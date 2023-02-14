@@ -1,5 +1,5 @@
 import React from 'react'
-import { NavBar } from './components/index'
+import { NavBar,Footer } from './components/index'
 import {Header, AboutUs,SpecialMenu} from './containers/index'
 
 const App = () => {
@@ -14,8 +14,8 @@ const App = () => {
     <Intro />
     <Laurels />
     <Gallery />
-    <FindUs />
-    <Footer />   */}
+    <FindUs />*/}
+    <Footer />   
     </div>
   )
 }
