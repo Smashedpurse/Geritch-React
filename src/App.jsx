@@ -1,10 +1,13 @@
 import React from 'react'
+import { NavBar } from './components/index'
+import {Header} from './containers/index'
 
 const App = () => {
   return (
     <div>
-    <Navbar />
+    <NavBar />
     <Header />
+    {/* 
     <AboutUs />
     <SpecialMenu />
     <Chef />
@@ -12,7 +15,7 @@ const App = () => {
     <Laurels />
     <Gallery />
     <FindUs />
-    <Footer /> 
+    <Footer />  */}
     </div>
   )
 }
