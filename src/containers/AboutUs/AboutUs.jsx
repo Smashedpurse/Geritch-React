@@ -21,6 +21,13 @@ const AboutUs = () => {
           <img src={images.knife} alt="about__knife"/>
         </div>
 
+        <div className='app__aboutus-content_history'>
+          <h1 className='headtext__cormorant'>Our History</h1>
+          <img src={images.spoon} alt="about_spoon" className='spoon__img'/>
+          <p className='p__opensans'>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</p>
+          <button type='button' className='custom__button'>Know More</button>
+        </div>
+
       </div>
     </div>
   )
