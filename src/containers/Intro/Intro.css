@@ -12,13 +12,13 @@
 .app__video-overlay{
     position: absolute;
     inset: 0;
-    background: rgb(0, 0, 0,0.65);
+    background: rgb(0, 0, 0,0.40);
 }
 
 .app__video-overlay_circle{
     width: 100px;
     height: 100px;
     border-radius: 50%;
-    border: 1px,solid,var(--color-golden);
+    border: 1px solid var(--color-golden);
     cursor: pointer;
 }
