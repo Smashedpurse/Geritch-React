@@ -1,24 +1,29 @@
-import React from 'react'
-
-const Menuitem = ({title,price,tags}) => {
+import React from "react";
+import './Menuitem.css'
+const Menuitem = ({ title, price, tags }) => {
   return (
-    <div className='app__menuItem'>
-      <div className='app__menuItem-head'>
-        <div className='app__menuItem-name'>
-          <p className='p__cormorant' style={{color:'#DCCA87'}}>{title}</p>
+    <div className="app__menuItem">
+      <div className="app__menuItem-head">
+        <div className="app__menuItem-name">
+          <p className="p__cormorant" style={{ color: "#DCCA87" }}>
+            {title}
+          </p>
         </div>
 
-        <div className='app__menuItem-name'>
-          <p className='p__cormorant' style={{color:'#DCCA87'}}>{price}</p>
-        </div>
+        <div className="app__menuItem-dash" />
 
-        <div className='app__menuItem-name'>
-          <p className='p__cormorant' style={{color:'#DCCA87'}}>{tags}</p>
+        <div className="app__menuItem-price">
+          <p className="p__cormorant">{price}</p>
         </div>
+      </div>
 
+      <div className="app__menuItem-sub">
+        <p className="p__opensans" style={{ color: "#AAA" }}>
+          {tags}
+        </p>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Menuitem
+export default Menuitem;
