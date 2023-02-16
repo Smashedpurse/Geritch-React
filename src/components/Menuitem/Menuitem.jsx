@@ -7,6 +7,15 @@ const Menuitem = ({title,price,tags}) => {
         <div className='app__menuItem-name'>
           <p className='p__cormorant' style={{color:'#DCCA87'}}>{title}</p>
         </div>
+
+        <div className='app__menuItem-name'>
+          <p className='p__cormorant' style={{color:'#DCCA87'}}>{price}</p>
+        </div>
+
+        <div className='app__menuItem-name'>
+          <p className='p__cormorant' style={{color:'#DCCA87'}}>{tags}</p>
+        </div>
+
       </div>
     </div>
   )
