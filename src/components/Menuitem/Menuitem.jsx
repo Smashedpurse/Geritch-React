@@ -1,6 +1,6 @@
 import React from "react";
 import './Menuitem.css'
-const Menuitem = ({ title, price, tags }) => {
+const MenuItem = ({ title, price, tags }) => {
   return (
     <div className="app__menuItem">
       <div className="app__menuItem-head">
@@ -26,4 +26,4 @@ const Menuitem = ({ title, price, tags }) => {
   );
 };
 
-export default Menuitem;
+export default MenuItem;
